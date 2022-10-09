@@ -1,0 +1,14 @@
+git init  // cria repositorio
+git add * //o arquivo fica como stage, aguardando o commit
+git commit -m "nome"  //envia para o repositorio local
+git status // motra em que estados estão os arquivos
+mv strogonoff.md ./receitas/ // move o arquivo para outra pasta
+
+git remote add origin https://github.com/AlanFSales/livro-receitas.git // adiciona repositorio remoto
+git remote -v // lista as repositorio
+git push origin master // manda o repositorio local para o remoto
+git pull origin master // tras o repositorio remoto para o local
+git clone https://github.com/GuilhermeDeAlmeidaPereira/CauculadoraJava.git // clona um repositorio remoto
+
+
+
