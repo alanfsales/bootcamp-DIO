@@ -1,4 +1,4 @@
-package java_anatomia_classes.edu.alan.operadoes;
+package edu.alan.operadoes;
 
 public class operadores {
 

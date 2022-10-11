@@ -1,4 +1,4 @@
-package java_anatomia_classes.edu.alan.sintaxe;
+package edu.alan.sintaxe;
 
 public class BoletimEstudantil {
 

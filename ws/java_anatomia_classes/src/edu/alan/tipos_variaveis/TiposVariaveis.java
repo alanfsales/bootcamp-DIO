@@ -1,4 +1,4 @@
-package java_anatomia_classes.edu.alan.tipos_variaveis;
+package edu.alan.tipos_variaveis;
 
 public class TiposVariaveis {
 
