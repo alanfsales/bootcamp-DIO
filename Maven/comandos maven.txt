@@ -1,0 +1,12 @@
+cria um projeto
+mvn archetype:generate -DgroupId=edu.alan -DartifactId=quick-start-maven 
+	-Darchetype=mavem-archetype-quickstart -DinteractiveMode=false
+
+mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes 
+	-DarchetypeArtifactId=maven-archetype-webapp -DarchetypeVersion=1.4
+
+mvn compile
+
+mvn test
+
+pesquisar "maven archetype list"
