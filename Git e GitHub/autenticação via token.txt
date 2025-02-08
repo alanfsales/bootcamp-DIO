@@ -1,0 +1,5 @@
+criar um token no github em configurações
+
+comando: git config --global credential.helper store
+
+tenta clonar um repositório privado pra ele pedir a senha

@@ -1,6 +1,7 @@
 git ssh
 gerar a chave:
-comando = ssh-keygen -t ed25519 -C alanfsales27@gmail.com      === git272727
+comando = ssh-keygen -t ed25519 -C "alanfsales27@gmail.com"      
+=== git272727
 
 entra na past .ssh
 
@@ -10,11 +11,13 @@ comando =  cat id_ed25519.pub
 coloca no github a chave pub
 
 starta um agente em plano de fundo
-comando = eval $(ssh-agent -s)
+comando = eval "$(ssh-agent -s)"
 
 entraga a chave privada pro agente
-comando =  ssh-add id_ed25519
+comando =  ssh-add ~/.ssh/id_ed25519
 senha
+
+
 
 
 

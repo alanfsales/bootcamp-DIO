@@ -3,6 +3,8 @@ comando = git init
 
 comando = git config --global user.email "alanfsales27@gmail.com"
 comando = git config --global user.name "alansales"
+comando = git config  init.defaultBranch  // mostra qual o mome da branch default
+comando = git config --global init.defaultBranch main // muda a branch default
 
 comando = git config --list // lista as configuração
 comando = git config --global --unset user.name // tira a configuração
